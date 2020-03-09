@@ -693,11 +693,26 @@ I lay out the foundations for thinking that STDP and Hebbian learning are closel
 
 It is also interesting that brain rythms could happen in SNNs, and that with Contrastive Divergence (CD), gradients could be provided between each cycle of the rhythm to enhance formation of clusters in the representation of information in the neurons, unsupervised learners that we humans are. I also point out to an idea of having a negative spike right after each positive spike, where negative spikes are inversely correlated to pre-synaptic neurones that fired too late for the impulse to be released so as to improve timing or respect more the rule of STDP that neurons late to the party should be penalized and would instead need to fire before their post-synaptic target.
 
+Note that I'm somehow not sure of the importance of my discovery of the link between STDP, Hebbian learning and backpropagation, as it might have already been discovered before, although I didn't find prior art. I did this on my own as a side project purely out of curiosity. I'd like to see dicussions in the [issues](https://github.com/guillaume-chevalier/Spiking-Neural-Network-SNN-with-PyTorch-where-Backpropagation-engenders-STDP/issues) section on GitHub. 
+
 ## Citation
 
-I'm somehow not sure of the importance of my discovery of the link between STDP, Hebbian learning and backpropagation, as it might have already been discovered before, although I didn't find prior art. I did this on my own as a side project purely out of curiosity. I'd like to see dicussion in the [issues](https://github.com/guillaume-chevalier/Spiking-Neural-Network-SNN-with-PyTorch-where-Backpropagation-engenders-STDP/issues) section on GitHub. I should perhaps write a paper if this article gets traction. For the time being, to cite my code, you can point to the URL of the GitHub repository, for example:
+Here is the BibTeX citation code:
 
-> Guillaume Chevalier, Spiking Neural Networks (SNNs) with PyTorch, 2018,
+```
+@misc{chevalier2016lstms,
+  title={Spiking Neural Network (SNN) with PyTorch where Backpropagation Engenders Spike-Timing-Dependent Plasticity (STDP)},
+  author={Chevalier, Guillaume},
+  url="https://github.com/guillaume-chevalier/Spiking-Neural-Network-SNN-with-PyTorch-where-Backpropagation-engenders-STDP",
+  year={2018}
+}
+```
+
+Note on BiBTeX: if the `url` field above isn't supported in your LaTeX/BiBTeX document, you could as well try to replace the `url=https://...` field by `note="\url{https://github.com/guillaume-chevalier/Spiking-Neural-Network-SNN-with-PyTorch-where-Backpropagation-engenders-STDP}"` instead.
+
+You can also link to the URL of the GitHub repository, for example:
+
+> Guillaume Chevalier, Spiking Neural Networks (SNNs) with PyTorch where Backpropagation Engenders Spike-Timing-Dependent Plasticity (STDP), 2018,
 > https://github.com/guillaume-chevalier/Spiking-Neural-Networks-SNNs-with-PyTorch
 
 ## License
