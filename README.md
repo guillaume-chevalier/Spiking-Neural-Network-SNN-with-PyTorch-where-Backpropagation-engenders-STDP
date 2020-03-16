@@ -693,7 +693,6 @@ I lay out the foundations for thinking that STDP and Hebbian learning are closel
 
 It is also interesting that brain rythms could happen in SNNs, and that with Contrastive Divergence (CD), gradients could be provided between each cycle of the rhythm to enhance formation of clusters in the representation of information in the neurons, unsupervised learners that we humans are. I also point out to an idea of having a negative spike right after each positive spike, where negative spikes are inversely correlated to pre-synaptic neurones that fired too late for the impulse to be released so as to improve timing or respect more the rule of STDP that neurons late to the party should be penalized and would instead need to fire before their post-synaptic target.
 
-Note that I'm somehow not sure of the importance of my discovery of the link between STDP, Hebbian learning and backpropagation, as it might have already been discovered before, although I didn't find prior art. I did this on my own as a side project purely out of curiosity. I'd like to see dicussions in the [issues](https://github.com/guillaume-chevalier/Spiking-Neural-Network-SNN-with-PyTorch-where-Backpropagation-engenders-STDP/issues) section on GitHub. 
 
 ## Citation
 
@@ -723,9 +722,13 @@ The present article's text is available under [CC BY-SA 4.0](https://creativecom
 
 My source code in the present article is not available yet under a license, but it's super fine to use it for educational or research purposes as long as you cite.
 
-## Keep in touch!
 
-I frequently code open-source and source-available repositories, either from work or for fun. Also check out out my new [Machine Learning Pipeline library](https://github.com/Neuraxio/Neuraxle) for easily coding automatic machine learning pipelines.
+## Collaborate with us on similar research projects
+
+I'd like to see dicussions in the [issues](https://github.com/guillaume-chevalier/Spiking-Neural-Network-SNN-with-PyTorch-where-Backpropagation-engenders-STDP/issues) section on GitHub.
+
+To write papers with like-minded people, join our [slack workspace](https://join.slack.com/t/neuraxio/shared_invite/zt-8lyw42c5-4PuWjTT8dQqeFK3at1s_dQ).
+
 
 ### Connect with me
 
@@ -737,7 +740,6 @@ I frequently code open-source and source-available repositories, either from wor
 - [Do R&D/Consulting/Products with me](http://www.neuraxio.com/en/)
 
 Liked this project? Did it help you? Leave a [star](https://github.com/guillaume-chevalier/Spiking-Neural-Networks-SNNs-with-PyTorch/stargazers), [fork](https://github.com/guillaume-chevalier/Spiking-Neural-Networks-SNNs-with-PyTorch/network/members) and share the love!
-
 
 
 ```python
