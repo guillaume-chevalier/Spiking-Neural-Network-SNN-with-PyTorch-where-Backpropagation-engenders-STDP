@@ -714,6 +714,7 @@ You can also link to the URL of the GitHub repository, for example:
 > Guillaume Chevalier, Spiking Neural Networks (SNNs) with PyTorch where Backpropagation Engenders Spike-Timing-Dependent Plasticity (STDP), 2018,
 > https://github.com/guillaume-chevalier/Spiking-Neural-Networks-SNNs-with-PyTorch
 
+
 ## License
 
 Copyright (c) 2019 Guillaume Chevalier.
@@ -723,21 +724,11 @@ The present article's text is available under [CC BY-SA 4.0](https://creativecom
 My source code in the present article is not available yet under a license, but it's super fine to use it for educational or research purposes as long as you cite.
 
 
-## Collaborate with us on similar research projects
-
-I'd like to see dicussions in the [issues](https://github.com/guillaume-chevalier/Spiking-Neural-Network-SNN-with-PyTorch-where-Backpropagation-engenders-STDP/issues) section on GitHub.
-
-To write papers with like-minded people, join our [slack workspace](https://join.slack.com/t/neuraxio/shared_invite/zt-8lyw42c5-4PuWjTT8dQqeFK3at1s_dQ).
-
-
 ### Connect with me
 
-- [LinkedIn](https://ca.linkedin.com/in/chevalierg)
-- [Twitter](https://twitter.com/guillaume_che)
 - [GitHub](https://github.com/guillaume-chevalier/)
-- [Quora](https://www.quora.com/profile/Guillaume-Chevalier-2)
+- [LinkedIn](https://ca.linkedin.com/in/chevalierg)
 - [YouTube](https://www.youtube.com/c/GuillaumeChevalier)
-- [Do R&D/Consulting/Products with me](http://www.neuraxio.com/en/)
 
 Liked this project? Did it help you? Leave a [star](https://github.com/guillaume-chevalier/Spiking-Neural-Networks-SNNs-with-PyTorch/stargazers), [fork](https://github.com/guillaume-chevalier/Spiking-Neural-Networks-SNNs-with-PyTorch/network/members) and share the love!
 
